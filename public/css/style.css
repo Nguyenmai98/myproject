@@ -1,9 +1,16 @@
 @charset "utf-8";
-/* CSS Document */
+*{
+	font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+}
 body{
 	margin:0px;
 	padding:0px;
 	background-color: #fdfcf0;
+}
+h1{
+	font-size: 40px; 
+	margin-bottom: 20px;
+	border-bottom: 2px solid black;
 }
 ul{
 	list-style:none;

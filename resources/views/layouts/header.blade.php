@@ -21,8 +21,8 @@
 				<li>
         			<a class="menu1" href="#">PHIM</a>
         			<ul>
-          				<li><a class="menu2" href="#">Phim Đang Chiếu</a></li>
-          				<li><a class="menu2" href="#">Phim Sắp Chiếu</a></li>
+          				<li><a class="menu2" href="/phimdangchieu">Phim Đang Chiếu</a></li>
+          				<li><a class="menu2" href="/phimsapchieu">Phim Sắp Chiếu</a></li>
         			</ul>
       			</li>
       			<li>
@@ -43,7 +43,7 @@
       			<li>
         			<a class="menu1" href="#">CULTUREFLEX</a>
         			<ul>
-          				<li><a class="menu2" href="#">Quầy Online</a></li>
+          				<li><a class="menu2" href="/quayonline">Quầy Online</a></li>
           				<li><a class="menu2" href="#">Sự Kiện & Vé Nhóm</a></li>
           				<li><a class="menu2" href="#">E-CGV</a></li>
           				<li><a class="menu2" href="#">CGV Restaurant</a></li>
@@ -53,7 +53,6 @@
 			</ul>
 			<a href=""><img src="/img/kenhcine.gif"></a>
 			<a href=""><img src="/img/mua-ve_ngay.png"></a>
-		</div>
   </div>
 </div>
 </header>

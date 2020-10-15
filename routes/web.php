@@ -24,3 +24,16 @@ Route::get('/news', function (){
 Route::get('/login', function (){
 	return view('login');
 });
+
+Route::get('/phimdangchieu', function (){
+	return view('phimdangchieu');
+});
+
+Route::get('/phimsapchieu', function (){
+	return view('phimsapchieu');
+});
+
+Route::get('/quayonline', function (){
+	return view('quayonline');
+});
+
