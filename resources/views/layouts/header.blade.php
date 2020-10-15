@@ -44,10 +44,10 @@
         			<a class="menu1" href="#">CULTUREFLEX</a>
         			<ul>
           				<li><a class="menu2" href="/quayonline">Quầy Online</a></li>
-          				<li><a class="menu2" href="#">Sự Kiện & Vé Nhóm</a></li>
-          				<li><a class="menu2" href="#">E-CGV</a></li>
-          				<li><a class="menu2" href="#">CGV Restaurant</a></li>
-          				<li><a class="menu2" href="#">Thẻ Quà Tặng</a></li>
+          				<li><a class="menu2" href="/groupsale">Sự Kiện & Vé Nhóm</a></li>
+          				<li><a class="menu2" href="/e-cgv">E-CGV</a></li>
+          				<li><a class="menu2" href="/menu">CGV Restaurant</a></li>
+          				<li><a class="menu2" href="gift-card">Thẻ Quà Tặng</a></li>
         			</ul>
       			</li>
 			</ul>

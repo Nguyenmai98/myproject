@@ -37,3 +37,20 @@ Route::get('/quayonline', function (){
 	return view('quayonline');
 });
 
+Route::get('/e-cgv', function (){
+	return view('e-cgv');
+});
+
+Route::get('/gift-card', function (){
+	return view('gift-card');
+});
+
+Route::get('/menu', function (){
+	return view('menu');
+});
+
+Route::get('/groupsale', function (){
+	return view('groupsale');
+});
+
+
