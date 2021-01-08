@@ -21,7 +21,7 @@
 				<p>100.000đ <b><span style="background-color: red; color: white">MUA</span></b></p>
 				<p>Có giá trị đổi vé xem phim 2D</p>
 			</div>
-			<a href=""><img src="img/ticket_voucher_2_.png"></a>
+			<a href=""><img src="{{asset('img/ticket_voucher_2_.png')}}"></a>
 		</div>
 		<div class="gvoucher">
 			<div class="detail">
@@ -29,7 +29,7 @@
 				<p>130.000đ <b><span style="background-color: red; color: white">MUA</span></b></p>
 				<p>Có giá trị đổi vé xem phim 3D</p>
 			</div>
-			<a href=""><img src="img/ticket_voucher_2__1.png"></a>
+			<a href=""><img src="{{asset('img/ticket_voucher_2__1.png')}}"></a>
 		</div>
 		<div class="gvoucher">
 			<div class="detail">
@@ -37,7 +37,7 @@
 				<p>250.000đ <b><span style="background-color: red; color: white">MUA</span></b></p>
 				<p>Có giá trị đổi vé xem phim rạp Gold Class</p>
 			</div>
-			<a href=""><img src="img/special_cinema-04-cropped.jpg"></a>
+			<a href=""><img src="{{asset('img/special_cinema-04-cropped.jpg')}}"></a>
 		</div>
 		</div>
 		<div class="row">
@@ -47,7 +47,7 @@
 				<p>180.000đ <b><span style="background-color: red; color: white">MUA</span></b></p>
 				<p>Có giá trị đổi vé xem phim IMAX 2D/3D</p>
 			</div>
-			<a href=""><img src="img/special_cinema-02-cropped.jpg"></a>
+			<a href=""><img src="{{asset('img/special_cinema-02-cropped.jpg')}}"></a>
 		</div>
 		<div class="gvoucher">
 			<div class="detail">
@@ -55,7 +55,7 @@
 				<p>180.000đ <b><span style="background-color: red; color: white">MUA</span></b></p>
 				<p>Có giá trị đổi vé xem phim 4DX 2D/3D</p>
 			</div>
-			<a href=""><img src="img/special_cinema-03-cropped.jpg"></a>
+			<a href=""><img src="{{asset('img/special_cinema-03-cropped.jpg')}}"></a>
 		</div>
 		</div>
 	</div>
@@ -68,7 +68,7 @@
 				<p>300.000đ <b><span style="background-color: red; color: white">MUA</span></b></p>
 				<p>Có giá trị như tiền mặt</p>
 			</div>
-			<a href=""><img src="img/gift_card_-_cinox_1.png"></a>
+			<a href=""><img src="{{asset('img/gift_card_-_cinox_1.png')}}"></a>
 		</div>
 		<div class="gvoucher">
 			<div class="detail">
@@ -76,7 +76,7 @@
 				<p>500.000đ <b><span style="background-color: red; color: white">MUA</span></b></p>
 				<p>Có giá trị như tiền mặt</p>
 			</div>
-			<a href=""><img src="img/gift_card_-_cinox_1.png"></a>
+			<a href=""><img src="{{asset('img/gift_card_-_cinox_1.png')}}"></a>
 		</div>
 		</div>
 	</div>

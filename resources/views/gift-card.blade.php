@@ -2,7 +2,7 @@
 @section('content')
 	<div class="container">
 		<div class="gift-card-1">
-			<img src="img/gift/gift-card-1.png">
+			<img src="{{asset('img/gift/gift-card-1.png')}}">
 		</div>
 		<div class="gift-card-2">
 			<h3><b>THẺ QUÀ TẶNG</b></h3>
@@ -11,7 +11,7 @@
 		</div>
 		<div class="gift-card-3">
 			<div class="col-md-5">
-				<img src="img/gift/gift-card-2.png">
+				<img src="{{asset('img/gift/gift-card-2.png')}}">
 			</div>
 			<div class="col-md-7">
 			<ul>
@@ -40,7 +40,7 @@
 				</ul>
 			</div>
 			<div class="col-md-2">
-				<img src="img/gift/gift-card-3.png">
+				<img src="{{asset('img/gift/gift-card-3.png')}}">
 			</div>
 		</div>
 	</div>

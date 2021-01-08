@@ -8,8 +8,8 @@
 		<div class="container container1">
 			<div class="app-link">
 				<ul>
-					<li><a href=""><img src="/img/e-cgv/app-android-play.png"></a></li>
-					<li><a href=""><img src="/img/e-cgv/app-ios-store.png"></a></li>
+					<li><a href=""><img src="{{asset('/img/e-cgv/app-android-play.png')}}"></a></li>
+					<li><a href=""><img src="{{asset('/img/e-cgv/app-ios-store.png')}}"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -17,14 +17,14 @@
 	<div class="part-2">
 		<div class="container container2">
 			<a href="">
-				<img src="img/e-cgv/vn-microsite-photo.png">
+				<img src="{{asset('img/e-cgv/vn-microsite-photo.png')}}">
 			</a>
 		</div>
 	</div>
 	<div class="part-3">
 		<div class="container container2">
 			<a href="">
-				<img src="img/e-cgv/vn-microsite-kiosk.png">
+				<img src="{{asset('img/e-cgv/vn-microsite-kiosk.png')}}">
 			</a>
 		</div>
 	</div>
@@ -33,22 +33,22 @@
 			<ul>
 				<li class="card-1">
 					<a href="">
-						<img src="img/e-cgv/cgv-giftcard-online.png">
+						<img src="{{asset('img/e-cgv/cgv-giftcard-online.png')}}">
 					</a>
 				</li>
 				<li class="card-2">
 					<a href="">
-						<img src="img/e-cgv/cgv-member-online.png">
+						<img src="{{asset('img/e-cgv/cgv-member-online.png')}}">
 					</a>
 				</li>
 				<li class="card-3">
 					<a href="">
-						<img src="img/e-cgv/cgv-visa-online.png">
+						<img src="{{asset('img/e-cgv/cgv-visa-online.png')}}">
 					</a>
 				</li>
 				<li class="card-4">
 					<a href="">
-						<img src="img/e-cgv/cgv-vourche-online.png">
+						<img src="{{asset('img/e-cgv/cgv-vourche-online.png')}}">
 					</a>
 				</li>
 			</ul>

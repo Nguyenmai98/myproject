@@ -6,7 +6,7 @@
 <body>
 	<div class="top-menu">
 		<a href="/">
-			<img src="/img/cgvlogo.png">
+			<img src="{{asset('img/cgvlogo.png')}}">
 		</a>
 		<div class="content-top-menu">
 			
@@ -17,55 +17,55 @@
 			<div class="bap">
 				<ul>
 					<li><a href="">
-						<img src="img/menu/bap-caramen.png">
+						<img src="{{asset('img/menu/bap-caramen.png')}}">
 					</a></li>
 					<li><a href="">
-						<img src="img/menu/bap-man.png">
+						<img src="{{asset('img/menu/bap-man.png')}}">
 					</a></li>
 					<li><a href="">
-						<img src="img/menu/bap-ngot.png">
+						<img src="{{asset('img/menu/bap-ngot.png')}}">
 					</a></li>
 					<li><a href="">
-						<img src="img/menu/bap-pho-mai-cgv.png">
+						<img src="{{asset('img/menu/bap-pho-mai-cgv.png')}}">
 					</a></li>
 				</ul>
 			</div>
 			<div class="food">
 				<ul>
 					<li><a href="">
-						<img src="img/menu/hot-food-1.png">
+						<img src="{{asset('img/menu/hot-food-1.png')}}">
 					</a></li>
 					<li><a href="">
-						<img src="img/menu/hot-food-2.png">
+						<img src="{{asset('img/menu/hot-food-2.png')}}">
 					</a></li>
 					<li><a href="">
-						<img src="img/menu/hot-food-3.png">
+						<img src="{{asset('img/menu/hot-food-3.png')}}">
 					</a></li>
 					<li><a href="">
-						<img src="img/menu/hot-food-4.png">
+						<img src="{{asset('img/menu/hot-food-4.png')}}">
 					</a></li>
 					<li><a href="">
-						<img src="img/menu/hot-food-5.png">
+						<img src="{{asset('img/menu/hot-food-5.png')}}">
 					</a></li>
 				</ul>
 			</div>
 			<div class="drink">
 				<ul>
 					<li class="drink1"><a href="">
-						<img src="img/menu/soft-drink-1.png">
+						<img src="{{asset('img/menu/soft-drink-1.png')}}">
 					</a></li>
 					<li class="drink1"><a href="">
-						<img src="img/menu/soft-drink-2.png">
+						<img src="{{asset('img/menu/soft-drink-2.png')}}">
 					</a></li>
 					<li class="drink1"><a href="">
-						<img src="img/menu/soft-drink-3.png">
+						<img src="{{asset('img/menu/soft-drink-3.png')}}">
 					</a></li>
 					<li class="drink2">
 						<a href="">
-							<img src="img/menu/soft-drink-coca-cola.png">
+							<img src="{{asset('img/menu/soft-drink-coca-cola.png')}}">
 						</a>
 						<a href="">
-							<img src="img/menu/soft-drink-sua-cacao.png">
+							<img src="{{asset('img/menu/soft-drink-sua-cacao.png')}}">
 						</a>
 					</li>
 				</ul>
@@ -107,7 +107,7 @@
 		width: 1000px;
 	    height: 3961px;
 	    margin: 0px auto;
-	    background: url(img/menu/bg-popcon.png) no-repeat top center;
+	    background: url(/img/menu/bg-popcon.png) no-repeat top center;
 	    background-size: 1000px 3961px;
 	}
 	.bap li{

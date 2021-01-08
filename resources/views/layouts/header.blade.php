@@ -1,14 +1,14 @@
 <header id="header">
 <div class="container">
   <div class="top">
-			<img src="/img/73ab87bc8d6633bd70bcfe78a3888b00.jpg">
+			<img src="{{asset('/img/73ab87bc8d6633bd70bcfe78a3888b00.jpg')}}">
 		</div>
 
 		<!-- nav -->
 		<div class="nav">
-			<a href="/news"><img src="/img/icon_promotion25.png">TIN MỚI & ƯU ĐÃI</a>
-			<a href=""><img src="/img/icon_ticket25.png">VÉ CỦA TÔI</a>
-			<a href="/login"><img src="/img/icon_login25.png">ĐĂNG NHẬP/ ĐĂNG KÝ</a>
+			<a href="/news"><img src="{{asset('/img/icon_promotion25.png')}}">TIN MỚI & ƯU ĐÃI</a>
+			<a href=""><img src="{{asset('/img/icon_ticket25.png')}}">VÉ CỦA TÔI</a>
+			<a href="/login"><img src="{{asset('/img/icon_login25.png')}}">ĐĂNG NHẬP/ ĐĂNG KÝ</a>
 			<a href="">VN | EN</a>
 		</div>
 </div>
@@ -16,7 +16,7 @@
 
 		<div class="navbar">
       <div class="container">
-			<a href=""><img src="/img/cgvlogo.png"></a>
+			<a href=""><img src="{{asset('/img/cgvlogo.png')}}"></a>
 			<ul>
 				<li>
         			<a class="menu1" href="#">PHIM</a>
@@ -51,8 +51,8 @@
         			</ul>
       			</li>
 			</ul>
-			<a href=""><img src="/img/kenhcine.gif"></a>
-			<a href=""><img src="/img/mua-ve_ngay.png"></a>
+			<a href=""><img src="{{asset('/img/kenhcine.gif')}}"></a>
+			<a href=""><img src="{{asset('/img/mua-ve_ngay.png')}}"></a>
   </div>
 </div>
 </header>
@@ -69,7 +69,7 @@
     padding: 5px;
   }
   .navbar{
-    background: url(img/bg-top.png) repeat-x scroll left bottom transparent;
+    background: url(/img/bg-top.png) repeat-x scroll left bottom transparent;
     background-size: 10px 135px;
     height: 135px;
     z-index: 1;

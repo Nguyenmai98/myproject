@@ -1,0 +1,12 @@
+.main-admin{
+	width: 80%;
+}
+label, input{
+    font-size: 14px;
+}
+th, td{
+	font-size: 14px;
+}
+.btn{
+	font-size: 14px!important;
+}

@@ -2,7 +2,7 @@
 @section('content')
 	<div class="container">
 		<div class="top-group">
-			<img src="img/group/gs-vn.png">
+			<img src="{{asset('img/group/gs-vn.png')}}">
 		</div>
 		<div class="content1-group">
 			<p>Bạn đang tìm giải pháp quảng cáo độc đáo để tăng doanh thu cho công ty?</p>
@@ -11,7 +11,7 @@
 			<p class="p1">Với kinh nghiệm dẫn đầu trong việc tổ chức sự kiện chiếu phim trong không gian riêng biệt, cung cấp vé xem phim hoặc thẻ quà tặng với số lượng lớn cho doanh nghiệp, chúng tôi tự hào sẽ mang đến cho đối tác những giải pháp điện ảnh chuyên nghiệp.</p>
 		</div>
 		<div class="top-group">
-			<img src="img/group/gs-our-service-vn.png">
+			<img src="{{asset('img/group/gs-our-service-vn.png')}}">
 		</div>
 		<div class="content2-group">
 			<div class="content2-top-group">
@@ -43,7 +43,7 @@
 					<p>Gửi lời đến những thầy cô giáo đầy nhiệt huyết, bạn muốn áp dụng một phương pháp giảng dạy đột phá để tăng hưng phấn cho học sinh, hãy đăng ký ngay một lớp dã ngoại tại CGV để lưu lại những phút giây học đường khó quên nhé!</p>
 				</div>
 				<div class="img-content">
-					<img src="img/group/Education-01.jpg">
+					<img src="{{asset('img/group/Education-01.jpg')}}">
 				</div>
 			</div>
 			<div class="tabcontent" id="tiectung">
@@ -52,7 +52,7 @@
 					<p>Hãy để CGV giúp bạn tổ chức những buổi tiệc hay sự kiện đặc biệt! Bất kể là một buổi xem phim thân mật, hay một sự kiện, hay một buổi lễ cầu hôn, CGV là lựa chọn hàng đầu dành cho bạn. Cùng xem qua các <span style="color: red">ý tưởng sáng tạo</span> tại CGV nhé!</p>
 				</div>
 				<div class="img-content">
-					<img src="img/group/Celebration.jpg">
+					<img src="{{asset('img/group/Celebration.jpg')}}">
 				</div>
 			</div>
 			<div class="tabcontent" id="quatang">
@@ -61,7 +61,7 @@
 					<p>Là một phương tiện thanh toán hiện đại và thuận tiện, thẻ quà tặng trả trước sẽ là một món quà ngập tràn sắc màu điện ảnh nhưng cũng không kém phần giá trị mà bạn có thể chia sẻ và gửi tặng bạn bè, gia đình, đồng nghiệp và đối tác.</p>
 				</div>
 				<div class="img-content">
-					<img src="img/group/group-sale-test.png">
+					<img src="{{asset('img/group/group-sale-test.png')}}">
 				</div>
 			</div>
 			<div class="tabcontent" id="voucher">
@@ -70,7 +70,7 @@
 					<p>Với mọi ngân sách marketing, sự kiện hay hội nghị, chúng tôi đều sẽ dành cho bạn mức giá hợp lý nhất cùng mức chiết khấu cao nhất. Với thời hạn sử dụng dài cũng như khả năng quy đổi linh hoạt, khách hàng của bạn sẽ vô cùng hài lòng với món quà đặc biệt này.</p>
 				</div>
 				<div class="img-content">
-					<img src="img/group/Voucher.jpg">
+					<img src="{{asset('img/group/Voucher.jpg')}}">
 				</div>
 			</div>
 			<div class="tabcontent" id="khuyenmai">
@@ -79,7 +79,7 @@
 					<p>Bạn muốn tự thiết kế khuyến mãi dành riêng cho bạn? Hãy cùng chúng tôi thực hiện điều đó, từ thời gian khuyến mãi đến thể lệ ưu đãi, bạn sẽ có riêng một chương trình đặc biệt với CGV là phần thưởng hấp dẫn không thể cưỡng lại với mọi khách hàng.</p>
 				</div>
 				<div class="img-content">
-					<img src="img/group/Promotion.jpg">
+					<img src="{{asset('img/group/Promotion.jpg')}}">
 				</div>
 			</div>
 			<div class="tabcontent" id="chude">
@@ -88,16 +88,16 @@
 					<p>Đến với CGV bạn có thể đi với bất kỳ chủ đề nào mình mong muốn để thu hút mọi nhóm đối tượng, từ các cặp đôi nhân dịp Lễ Tình Nhân, hay các gia đình vào mùa Giáng Sinh, đến các cô gái xinh đẹp nhân ngày Quốc Tế Phụ Nữ, tất cả sẽ luôn cảm thấy tươi mới và phấn khích với không khí lễ hội tại CGV.</p>
 				</div>
 				<div class="img-content">
-					<img src="img/group/Theme.jpg">
+					<img src="{{asset('img/group/Theme.jpg')}}">
 				</div>
 			</div>
 		</div>
 		<div class="top-group">
-			<img src="img/group/gs-discuss-vn.png">
+			<img src="{{asset('img/group/gs-discuss-vn.png')}}">
 		</div>
 		<div class="content3-group">
 			<p>Gửi yêu cầu của bạn cho bộ phận Group Sales, chúng tôi sẽ trả lời bạn trong thời gian sớm nhất.</p>
-			<img src="img/group/gs-footer-contact-en.png">
+			<img src="{{asset('img/group/gs-footer-contact-en.png')}}">
 		</div>
 	</div>
 @endsection
