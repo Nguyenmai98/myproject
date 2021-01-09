@@ -61,6 +61,10 @@ Route::get('/phimdangchieu', function (){
 	return view('phimdangchieu');
 });
 
+Route::get('/chitietphim', function (){
+    return view('chitietphim');
+});
+
 Route::get('/phimsapchieu', function (){
 	return view('phimsapchieu');
 });

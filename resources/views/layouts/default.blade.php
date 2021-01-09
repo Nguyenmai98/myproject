@@ -14,9 +14,13 @@
   	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="{{asset('css/lightslider.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{asset('css/all.css')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{asset('css/all.min.css')}}"/>
     <!--Jquery-->
     <script type="text/javascript" src="{{asset('js/JQuery3.3.1.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/lightslider.js')}}"></script>
+    <script src="{{asset('js/all.min.js')}}"></script>
+    <script src="{{asset('js/all.js')}}"></script>
 </head>
 <body>
     @include('layouts.header')

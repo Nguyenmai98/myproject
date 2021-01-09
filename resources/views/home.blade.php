@@ -86,11 +86,13 @@
 			    <div class="carousel-item active">
 			      <div class="col-md-3">
 			      	<div class="box">
+						<a href="/chitietphim">
 						<img class="model" src="{{asset('img/zombie_mansion_-_vietnam_-_poster_revised_1__1.jpg')}}">
 						<div class="infofilm">
 							<h3>Biệt thự xác sống</h3>
 							<p>Thể loại: Kinh dị</p>
 						</div>
+						</a>
 					</div>
 			      </div>
 			      <div class="col-md-3">

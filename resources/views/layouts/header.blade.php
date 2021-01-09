@@ -16,7 +16,7 @@
 
 		<div class="navbar">
       <div class="container">
-			<a href=""><img src="{{asset('/img/cgvlogo.png')}}"></a>
+			<a href="/"><img src="{{asset('/img/cgvlogo.png')}}"></a>
 			<ul>
 				<li>
         			<a class="menu1" href="#">PHIM</a>
