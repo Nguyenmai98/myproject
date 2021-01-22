@@ -6,18 +6,15 @@
 			<button class="tablink" onclick="openPage('Login')" id="defaultOpen">Đăng nhập</button>
 			<button class="tablink" onclick="openPage('Signup')">Đăng ký</button>
 			<div id="Login" class="tabcontent">
-			  <p style="padding-top: 45px"><b>Email hoặc số điện thoại</b></p>
-			  <input type="text" name="email" placeholder="Email hoặc số điện thoại">
-			  <p><b>Mật khẩu</b></p>
-			  <input type="password" name="password" placeholder="Mật khẩu">
-			  <p><b>Vui lòng nhập ký tự bên dưới <span style="color: red">*</span></b></p>
-			  <input type="text" name="capcha">
-			  <div class="capcha">
-			  	<img class="capcha-reload" src="img/reload.png">
-			  	<img class="capcha-content" src="img/02c27c08b2b87328629e737f9492d5b5.png">
-			  </div>
-			  <input type="submit" class="submit" value="Đăng nhập">
-			  <p><a href="">Bạn muốn tìm lại mật khẩu?</a></p>
+				<form id="login-form" class="form" action="" method="post">
+                  @csrf
+				  <p style="padding-top: 45px"><b>Email hoặc số điện thoại</b></p>
+				  <input type="text" name="email" placeholder="Email hoặc số điện thoại">
+				  <p><b>Mật khẩu</b></p>
+				  <input type="password" name="password" placeholder="Mật khẩu" style="margin-bottom: 20px;">
+				  <input type="submit" class="submit" value="Đăng nhập">
+				  <p><a href="" style="text-decoration: underline;">Bạn muốn tìm lại mật khẩu?</a></p>
+				</form>
 			</div>
 
 			<div id="Signup" class="tabcontent">
@@ -156,13 +153,7 @@
 			  <label for="male">Nam</label>
 			  <input type="radio" id="female" name="gender" value="female">
 			  <label for="female">Nữ</label>
-              
-			  <p><b>Vui lòng nhập ký tự bên dưới <span style="color: red">*</span></b></p>
-			  <input type="text" name="capcha">
-			  <div class="capcha">
-			  	<img class="capcha-reload" src="img/reload.png">
-			  	<img class="capcha-content" src="img/02c27c08b2b87328629e737f9492d5b5.png">
-			  </div>
+			  <br>
 			  <label class="pro">
 			  	<input type="checkbox" checked="checked"><b>Tôi đồng ý với <span style="color: red">Điều khoản sử dụng của CGV</span></b>
 			  </label><br>

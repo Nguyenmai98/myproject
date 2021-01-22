@@ -225,7 +225,7 @@
 	}
 	.tophome{
 		margin-top: 15px;
-		background: url({{asset('img/bg_c_bricks.png);
+		background: url(img/bg_c_bricks.png);
 		height: 450px;
 	}
 	.tit{

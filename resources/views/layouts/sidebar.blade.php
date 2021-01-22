@@ -4,7 +4,7 @@
     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
       
       <li class="nav-item">
-        <a href="/admin" class="nav-link">
+        <a href="/loginadmin" class="nav-link">
           <i class="fas fa-angle-double-right"></i>
           <p>
             Trang chủ

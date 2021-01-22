@@ -8,7 +8,7 @@
 		<div class="nav">
 			<a href="/news"><img src="{{asset('/img/icon_promotion25.png')}}">TIN MỚI & ƯU ĐÃI</a>
 			<a href=""><img src="{{asset('/img/icon_ticket25.png')}}">VÉ CỦA TÔI</a>
-			<a href="/login"><img src="{{asset('/img/icon_login25.png')}}">ĐĂNG NHẬP/ ĐĂNG KÝ</a>
+			<a href="/admin"><img src="{{asset('/img/icon_login25.png')}}">ĐĂNG NHẬP/ ĐĂNG KÝ</a>
 			<a href="">VN | EN</a>
 		</div>
 </div>

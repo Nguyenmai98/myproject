@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/admin', function () {
-    return view('admin.home');
-});
-
 Route::prefix('categories')->group(function () {
     Route::get('/', [
     	'as' => 'categories.index',
@@ -53,8 +49,10 @@ Route::get('/news', function (){
 	return view('news');
 });
 
-Route::get('/login', function (){
-	return view('login');
+Route::get('/admin', 'App\Http\Controllers\AdminController@loginAdmin');
+Route::post('/admin', 'App\Http\Controllers\AdminController@postLoginAdmin');
+Route::get('/loginadmin', function (){
+    return view('admin.home');
 });
 
 Route::get('/phimdangchieu', function (){

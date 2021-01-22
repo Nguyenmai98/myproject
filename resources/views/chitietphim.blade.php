@@ -60,6 +60,11 @@
 
 </script>
 <style type="text/css">
+	h1{
+		font-size: 32px!important;
+		padding-top: 10px;
+		border-bottom: 1.6px solid black!important;
+	}
 	.noidung img{
 		width: 181px;
 		height: 268px;
@@ -85,9 +90,6 @@
 	span{
 		font-weight: bold;
 	}
-	h1{
-		padding-top: 10px;
-	}
 	.btn-booking, .btn-booking:hover, .btn-booking:active, .btn-booking:focus {
 	    background: none no-repeat scroll 0 0 #e71a0f;
 	    border-radius: 5px;
@@ -106,6 +108,7 @@
 	    text-transform: uppercase;
 	    vertical-align: middle;
 	    white-space: nowrap;
+	    margin-top: 10px;
 	}
 	.btn-booking > span, .btn-booking:hover > span, .btn-booking:active > span, .btn-booking:focus > span {
 	    padding-left: 25px;
