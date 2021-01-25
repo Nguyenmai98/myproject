@@ -1,3 +1,4 @@
+<div id="wrapper">
 <div class="sidebar">
   <!-- Sidebar Menu -->
   <nav class="mt-2">
@@ -16,17 +17,17 @@
         <a href="{{ route('categories.index') }}" class="nav-link">
           <i class="fas fa-angle-double-right"></i>
           <p>
-            Danh mục sản phẩm
+            Danh mục phim
           </p>
         </a>
       </li>
 
       
       <li class="nav-item">
-        <a href="" class="nav-link">
+        <a href="{{ route('products.index') }}" class="nav-link">
           <i class="fas fa-angle-double-right"></i>
           <p>
-            Sản phẩm
+            Phim
           </p>
         </a>
       </li>
@@ -43,6 +44,7 @@
     </ul>
   </nav>
   <!-- /.sidebar-menu -->
+</div>
 </div>
 <style type="text/css">
   .sidebar{

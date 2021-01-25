@@ -30,6 +30,9 @@
     <script src="{{asset('jquery/jquery.min.js')}}"></script>
     <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('js/adminlte.min.js')}}"></script>
+    <script src="{{ asset('vendors/select2/select2.min.js') }}"></script>
+    <script src="{{ asset('admins/add-product.js') }}"></script>
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
   @yield('css')
 </head>
 <body>
@@ -40,6 +43,6 @@
     </div>
     @include('layouts.footer')
 
-@yield('js')
+    @yield('js')
 </body>
 </html>
