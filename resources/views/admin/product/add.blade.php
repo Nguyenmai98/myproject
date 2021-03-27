@@ -85,13 +85,14 @@
     </div>
   </div>
 @endsection 
+<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 <style type="text/css">
   .form-control, .form-control-file{
     font-size: 14px!important; 
     width: 600px!important;
-    margin-left: 20px;
+    height: 40px!important;
   }
-  label{
-    margin-left: 20px;
+  .sidebar{
+    height: 1300px!important;
   }
 </style>

@@ -21,9 +21,9 @@
 				<p><span>Thời lượng: </span>97 phút</p>
 				<p><span>Ngôn ngữ: </span>Tiếng Việt</p>
 				<p><span>Rated: C16 - CẤM KHÁN GIẢ DƯỚI 16 TUỔI</span></p>
-				<button type="button" title="Mua vé" class="button btn-booking">
+				<a href="/muave"><button type="button" title="Mua vé" class="button btn-booking">
 					<span><span>Mua vé</span></span>
-				</button>
+				</button></a>
 			</div>
 		</div>
 	</div>

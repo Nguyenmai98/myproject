@@ -3,38 +3,32 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-				<a href="{{ route('products.create') }}" class="btn btn-success float-right m-2" style="font-size: 14px;">Add</a>
+				<a href="{{ route('sliders.create') }}" class="btn btn-success float-right m-2" style="font-size: 14px;">Add</a>
 			</div>
 			<div class="col-md-12">
             <table class="table">
               <thead>
                 <tr>
                   <th scope="col">#</th>
-                  <th scope="col">Tên phim</th>
+                  <th scope="col">Tên slider</th>
                   <th scope="col">Hình ảnh</th>
-                  <th scope="col">Đạo diễn</th>
-                  <th scope="col">Thể loại</th>
-                  <th scope="col">Danh mục phim</th>
                   <th scope="col">Action</th>
                 </tr>
               </thead>
               <tbody>
 
-                @foreach($products as $productItem)
+                @foreach($sliders as $sliderItem)
 
                 <tr>
-                  <th scope="row">{{ $productItem->id }}</th>
-                  <td>{{ $productItem->name }}</td>
+                  <th scope="row">{{ $sliderItem->id }}</th>
+                  <td>{{ $sliderItem->name }}</td>
                   <td>
-                    <img class="product_image_150_100" src="{{ $productItem->feature_image_path }}">
+                    <img class="product_image_150_100" src="{{ $sliderItem->image_path }}">
                   </td>
-                  <td>{{ $productItem->daodien }}</td>
-                  <td>{{ $productItem->theloai }}</td>
-                  <td>{{ optional($productItem->category)->name }}</td>
                   <td>
-                    <a href="{{ route('products.edit', ['id' => $productItem->id]) }}" class="btn btn-default">Edit</a>
+                    <a href="{{ route('sliders.edit', ['id' => $sliderItem->id]) }}" class="btn btn-default">Edit</a>
                     <a href="" 
-                    data-url="{{ route('products.delete', ['id' => $productItem->id]) }}"
+                    data-url="{{ route('sliders.delete', ['id' => $sliderItem->id]) }}"
                     class="btn btn-danger action_delete">Delete</a>
                   </td>
                 </tr>

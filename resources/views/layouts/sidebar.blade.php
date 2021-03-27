@@ -34,10 +34,19 @@
 
      
       <li class="nav-item">
-        <a href="" class="nav-link">
+        <a href="{{ route('users.index') }}" class="nav-link">
           <i class="fas fa-angle-double-right"></i>
           <p>
             Danh sách nhân viên
+          </p>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="{{ route('sliders.index') }}" class="nav-link">
+          <i class="fas fa-angle-double-right"></i>
+          <p>
+            Slider
           </p>
         </a>
       </li>

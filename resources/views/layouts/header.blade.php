@@ -1,15 +1,10 @@
 <header id="header">
 <div class="container">
-  <div class="top">
-			<img src="{{asset('/img/73ab87bc8d6633bd70bcfe78a3888b00.jpg')}}">
-		</div>
-
 		<!-- nav -->
 		<div class="nav">
 			<a href="/news"><img src="{{asset('/img/icon_promotion25.png')}}">TIN MỚI & ƯU ĐÃI</a>
 			<a href=""><img src="{{asset('/img/icon_ticket25.png')}}">VÉ CỦA TÔI</a>
 			<a href="/admin"><img src="{{asset('/img/icon_login25.png')}}">ĐĂNG NHẬP/ ĐĂNG KÝ</a>
-			<a href="">VN | EN</a>
 		</div>
 </div>
 		<!-- NAVBAR -->
@@ -25,34 +20,24 @@
           				<li><a class="menu2" href="/phimsapchieu">Phim Sắp Chiếu</a></li>
         			</ul>
       			</li>
-      			<li>
-        			<a class="menu1" href="#">RẠP CGV</a>
-        			<ul>
-          				<li><a class="menu2" href="#">Tất Cả Các Rạp</a></li>
-          				<li><a class="menu2" href="#">Rạp Đặc Biệt</a></li>
-          				<li><a class="menu2" href="#">Rạp Sắp Mở</a></li>
-        			</ul>
-      			</li>
+            <li>
+              <a class="menu1" href="">GIỚI THIỆU</a>
+            </li>
       			<li>
         			<a class="menu1" href="">THÀNH VIÊN</a>
-        			<ul>
-          				<li><a class="menu2" href="#">Tài Khoản CGV</a></li>
-          				<li><a class="menu2" href="#">Quyền Lợi</a></li>
-        			</ul>
       			</li>
       			<li>
         			<a class="menu1" href="#">CULTUREFLEX</a>
         			<ul>
-          				<li><a class="menu2" href="/quayonline">Quầy Online</a></li>
           				<li><a class="menu2" href="/groupsale">Sự Kiện & Vé Nhóm</a></li>
-          				<li><a class="menu2" href="/e-cgv">E-CGV</a></li>
           				<li><a class="menu2" href="/menu">CGV Restaurant</a></li>
           				<li><a class="menu2" href="gift-card">Thẻ Quà Tặng</a></li>
         			</ul>
       			</li>
+            <li>
+              <a class="menu1" href="">LIÊN HỆ</a>
+            </li>
 			</ul>
-			<a href=""><img src="{{asset('/img/kenhcine.gif')}}"></a>
-			<a href=""><img src="{{asset('/img/mua-ve_ngay.png')}}"></a>
   </div>
 </div>
 </header>

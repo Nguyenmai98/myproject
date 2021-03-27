@@ -1,13 +1,6 @@
 @extends('layouts.default')
 @section('content')	
 <section>
-	<div class="container">
-		<!-- adver -->
-		<div class="adver">
-			<img src="{{asset('img/bg-header-transparent-home.png')}}">
-			
-		</div>
-	</div>
 	<div class="tophome">
 		<div class="container">
 		<!-- carousel -->
@@ -28,35 +21,35 @@
     	<!-- Wrapper for slides -->
     	<div class="carousel-inner carousel-inner-top">
      	<div class="item active">
-        	<img src="{{asset('img/rsz_rom_khoi_chieu_980x448.jpg')}}" alt="Phim Ròm" style="width:100%;">
+        	<img src="{{asset('img/rsz_rom_khoi_chieu_980x448.jpg')}}" alt="Phim Ròm">
       	</div>
 
       	<div class="item">
-        	<img src="{{asset('img/980x448_74.jpg')}}" alt="phù thủy tối thượng" style="width:100%;">
+        	<img src="{{asset('img/980x448_74.jpg')}}" alt="phù thủy tối thượng">
       	</div>
     
       	<div class="item">
-        	<img src="{{asset('img/980x448_78.jpg')}}" alt="" style="width:100%;">
+        	<img src="{{asset('img/980x448_78.jpg')}}" alt="">
       	</div>
 
       	<div class="item">
-        	<img src="{{asset('img/980x448_9__4.jpg')}}" alt="" style="width:100%;">
+        	<img src="{{asset('img/980x448_9__4.jpg')}}" alt="">
       	</div>
 
       	<div class="item">
-        	<img src="{{asset('img/cgv-brand-team-phim-hay-thang--980x448.jpg')}}" alt="" style="width:100%;">
+        	<img src="{{asset('img/cgv-brand-team-phim-hay-thang--980x448.jpg')}}" alt="">
       	</div>
 
       	<div class="item">
-        	<img src="{{asset('img/cgv-digital-team-x-innerb-980x448.jpg')}}" alt="" style="width:100%;">
+        	<img src="{{asset('img/cgv-digital-team-x-innerb-980x448.jpg')}}" alt="">
       	</div>
 
       	<div class="item">
-        	<img src="{{asset('img/rolling_banner_1__1.jpg')}}" alt="" style="width:100%;">
+        	<img src="{{asset('img/rolling_banner_1__1.jpg')}}" alt="">
       	</div>
 
       	<div class="item">
-        	<img src="{{asset('img/rolling_banner.jpg')}}" alt="" style="width:100%;">
+        	<img src="{{asset('img/rolling_banner.jpg')}}" alt="">
       	</div>
     	</div>
 
@@ -151,11 +144,6 @@
 			  <div class="descrip">
 			  	<img src="{{asset('img/h3_event.gif')}}">
 			  </div>
-
-			  <div class="tit">
-					<p>Tin mới & Ưu đãi | Thành viên CGV</p>
-			  </div>
-
 			  <div class="event">
 				  	<div class="col-md-12">
 						<div class="col-md-3">
@@ -175,18 +163,27 @@
 						</div>
 					</div>
 			  	</div>
-			  <!-- adver -->
-			  <div class="adver">
+			  <!-- news -->
+			<div class="descrip">
+	  			<img src="{{asset('img/bg-new-offer-vn.png')}}">
+	  		</div>
+			  <div class="news">
 			  	<div class="col-md-12">
-			  	<div class="col-md-3">
-			  	<img src="{{asset('img/214x245.jpg')}}">
-			  	</div>
-			  	<div class="col-md-6">
-			  	<img src="{{asset('img/U22_496x247.jpg')}}">
-			  </div>
-			  	<div class="col-md-3">
-			  	<img src="{{asset('img/LATE-SHOW-NEW-12.2019-214x245.jpg')}}">
-			  </div>
+			  	  	<div class="col-md-3">
+						<img class="model1" src="{{asset('img/viettel-pay-240x201.png')}}">
+					</div>
+						
+					<div class="col-md-3">
+						<img class="model1" src="{{asset('img/uu-dai-visa-cgv-24x201.jpg')}}">
+					</div>
+					
+					<div class="col-md-3">
+						<img class="model1" src="{{asset('img/u22_240x201.jpg')}}">
+					</div>
+					
+					<div class="col-md-3">
+						<img class="model1" src="{{asset('img/happywednesday240x201_1.jpg')}}">
+					</div>
 			  </div>
 			  </div>
 	</div>
@@ -194,6 +191,10 @@
 </section>
 @stop
 <style type="text/css">
+	.item img{
+		width: 100%;
+		height: 100%;
+	}
 	.box{
 		position: relative;
 	}
@@ -210,23 +211,11 @@
 	    text-align: center;
 	    color: white;
 	}
-	.adver img{
-		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	    border-bottom: 2px solid black;
-	}
-
 	.carousel-indicators li{
 		display: none !important;
 	}
 	.main-movie{
 		margin-top: 25px;
-	}
-	.tophome{
-		margin-top: 15px;
-		background: url(img/bg_c_bricks.png);
-		height: 450px;
 	}
 	.tit{
 		margin-top: 20px;
@@ -245,10 +234,6 @@
 	}
 	.event{
 		padding-bottom: 10px;
-		border-bottom: 2px solid black;
-	}
-	.carousel-inner-top{
-		height: 450px;
 	}
 </style>
 

@@ -72,6 +72,70 @@ Route::prefix('products')->group(function () {
     ]);
     
 });
+Route::prefix('users')->group(function () {
+    Route::get('/', [
+        'as' => 'users.index',
+        'uses' => 'App\Http\Controllers\AdminUserController@index'
+    ]);
+
+    Route::get('/create', [
+        'as' => 'users.create',
+        'uses' => 'App\Http\Controllers\AdminUserController@create'
+    ]);
+
+    Route::post('/store', [
+        'as' => 'users.store',
+        'uses' => 'App\Http\Controllers\AdminUserController@store'
+    ]);
+
+    Route::get('/edit/{id}', [
+        'as' => 'users.edit',
+        'uses' => 'App\Http\Controllers\AdminUserController@edit'
+    ]);
+
+    Route::post('/update/{id}', [
+        'as' => 'users.update',
+        'uses' => 'App\Http\Controllers\AdminUserController@update'
+    ]);
+
+    Route::get('/delete/{id}', [
+        'as' => 'users.delete',
+        'uses' => 'App\Http\Controllers\AdminUserController@delete'
+    ]);
+ 
+});
+Route::prefix('sliders')->group(function () {
+    Route::get('/', [
+        'as' => 'sliders.index',
+        'uses' => 'App\Http\Controllers\SliderController@index'
+    ]);
+
+    Route::get('/create', [
+        'as' => 'sliders.create',
+        'uses' => 'App\Http\Controllers\SliderController@create'
+    ]);
+
+    Route::post('/store', [
+        'as' => 'sliders.store',
+        'uses' => 'App\Http\Controllers\SliderController@store'
+    ]);
+
+    Route::get('/edit/{id}', [
+        'as' => 'sliders.edit',
+        'uses' => 'App\Http\Controllers\SliderController@edit'
+    ]);
+
+    Route::post('/update/{id}', [
+        'as' => 'sliders.update',
+        'uses' => 'App\Http\Controllers\SliderController@update'
+    ]);
+
+    Route::get('/delete/{id}', [
+        'as' => 'sliders.delete',
+        'uses' => 'App\Http\Controllers\SliderController@delete'
+    ]);
+ 
+});
 Route::get('/news', function (){
 	return view('news');
 });
@@ -112,6 +176,10 @@ Route::get('/menu', function (){
 
 Route::get('/groupsale', function (){
 	return view('groupsale');
+});
+
+Route::get('/muave', function (){
+    return view('muave');
 });
 
 

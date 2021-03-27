@@ -1,10 +1,4 @@
-<div class="footer">
-	<div class="top-footer">
-		<div class="container">
-			<img src="{{asset('img/brand-type-film-footer_ver2.png')}}">
-		</div>
-	</div>
-	
+<div class="footer">	
 	<div class="main">
 		<div class="container">
 			<div class="col-md-12">
@@ -30,7 +24,7 @@
 					<p><b>Kết Nối Với Chúng Tôi</b></p>
 					<p></p>
 					<div class="social">
-					<img src="{{asset('img/bg-social-footer-40.png')}}">
+						
 					</div>
 					<div class="connect">
 						<a href=""><img src="{{asset('img/cong-thuong.PNG')}}"></a>
@@ -71,15 +65,8 @@
 	.footer{
 		margin-top: 5px;
 	}
-	.top-footer {
-		padding-top: 20px;
-		border-bottom: 2px solid black;
-		border-top: 2px solid black;
-	}
-	.top-footer img{
-		width: 100%;
-	}
 	.main{
+		border-top: 2px solid black;
 		border-bottom: 2px solid black;
 	}
 	.col-md-12{

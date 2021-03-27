@@ -1,7 +1,9 @@
 @extends('layouts.default')
 @section('content')	
 <div class="container pdchieu">
-	<h1>Phim Đang Chiếu</h1>
+	<div class="title-line">
+		<h2>Phim Đang Chiếu</h2>
+	</div>
 	<div class="row">
 		<div class="phim">
 				<a href=""><img src="{{asset('img/rsz_main_poster_cncc_1.jpg')}}"></a>
