@@ -43,9 +43,6 @@
 <script src="{{ asset('admins/list.js') }}"></script>
 @endsection
 <style type="text/css">
-  .sidebar{
-    height: 700px!important;
-  }
   .product_image_150_100{
     width: 150px;
   }

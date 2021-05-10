@@ -1,315 +1,133 @@
 @extends('layouts.default')
 @section('content')
-	<div class="container">
-		<h1>Ngày xem</h1>
-		<div class="ngayxem">
-			<ul class="toggle-tabs">
-				<li class="current">
-					<div class="day">
-					<span>01</span>
-					<em>Fre</em>
-					<strong>29</strong>
-					</div>
-				</li>
-				<li>
-					<div class="day">
-					<span>01</span>
-					<em>Sat</em>
-					<strong>30</strong>
-					</div>
-				</li>
-				<li>
-					<div class="day">
-					<span>01</span>
-					<em>Sun</em>
-					<strong>31</strong>
-					</div>
-				</li>
-				<li>
-					<div class="day">
-					<span>02</span>
-					<em>Mon</em>
-					<strong>01</strong>
-					</div>
-				</li>
-				<li>
-					<div class="day">
-					<span>02</span>
-					<em>Tue</em>
-					<strong>02</strong>
-					</div>
-				</li>
-				<li>
-					<div class="day">
-					<span>03</span>
-					<em>Wed</em>
-					<strong>03</strong>
-					</div>
-				</li>
-				<li>
-					<div class="day">
-					<span>01</span>
-					<em>Thu</em>
-					<strong>04</strong>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<h1>Giờ xem</h1>
-		<div class="site sitecgv">
-			<ul class="products-grid-movie tab-showtime">
-				<li class="current">
-					<p>15:50 PM</p>
-				</li>
-				<li class="item">
-					<p>16:50 PM</p>
-				</li>
-				<li class="item">
-					<p>18:30 PM</p>
-				</li>
-				<li class="item">
-					<p>19:30 PM</p>
-				</li>
-				<li class="item">
-					<p>20:40 PM</p>
-				</li>
-				<li class="item">
-					<p>21:10 PM</p>
-				</li>
-			</ul>
-		</div>
-		<h1>Người/Ghế</h1>
-		<div class="main-content">
-			<div class="col-md-12">
-				<div class="col-md-6">
-					<p class="under"><b>Phòng chiếu</b></p>
-						<div class="row">
-							<div class="seat seat-standard active">A10</div>
-							<div class="seat seat-standard active">A9</div>
-							<div class="seat seat-standard active">A8</div>
-							<div class="seat seat-standard active">A7</div>
-							<div class="seat seat-standard active">A6</div>
-							<div class="seat seat-standard active">A5</div>
-							<div class="seat seat-standard active">A4</div>
-							<div class="seat seat-standard active">A3</div>
-							<div class="seat seat-standard active">A2</div>
-							<div class="seat seat-standard active">A1</div>
-						</div>
-						<div class="row">
-							<div class="seat seat-standard active">B10</div>
-							<div class="seat seat-standard active">B9</div>
-							<div class="seat seat-standard active">B8</div>
-							<div class="seat seat-standard active">B7</div>
-							<div class="seat seat-standard active">B6</div>
-							<div class="seat seat-standard active">B5</div>
-							<div class="seat seat-standard active">A10</div>
-							<div class="seat seat-standard active">A10</div>
-							<div class="seat seat-standard active">A10</div>
-							<div class="seat seat-standard active">A10</div>
-						</div>
-						<div class="row">
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-						</div>
-						<div class="row">
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-						</div>
-						<div class="row">
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-						</div>
-						<div class="row">
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-							<div class="seat seat-standard active" >A10</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<p class="under"><b>Chú thích</b></p>
-						<div class="iconlist">
-							<p class="icon checked">Checked</p>
-							<p class="icon occupied">Đã chọn</p>
-							<p class="icon unavailable">Không thể chọn</p>
-						</div>
-							
-						<div class="iconlist">
-							<p class="icon zone-standard" title="Standard">Thường</p>
-							<p class="icon zone-vipprime" title="VIP(Prime)">VIP(Prime)</p>
-						</div>
-					</div>
-				</div>
+<div class="main1">
+	<button class="tablink" onclick="openPage('thu7')" id="defaultOpen">
+		<p class="thu">Thứ 7</p>
+		<p>24/04</p>
+	</button>
+	<button class="tablink" onclick="openPage('chunhat')">
+		<p class="thu">Chủ nhật</p>
+		<p>24/04</p>
+	</button>
+	<button class="tablink" onclick="openPage('thu2')">
+		<p class="thu">Thứ 2</p>
+		<p>24/04</p></button>
+	<button class="tablink" onclick="openPage('thu3')">
+		<p class="thu">Thứ 3</p>
+		<p>24/04</p>
+	</button>
+	<button class="tablink" onclick="openPage('thu4')">
+		<p class="thu">Thứ 4</p>
+		<p>24/04</p>
+	</button>
+	<button class="tablink" onclick="openPage('thu5')">
+		<p class="thu">Thứ 5</p>
+		<p>24/04</p>
+	</button>
+	<button class="tablink" onclick="openPage('thu6')">
+		<p class="thu">Thứ 6</p>
+		<p>24/04</p>
+	</button>
+
+	<div id="thu7" class="tabcontent">
+		<div class="row tgphim">
+		<div class="col-md-4"  style="border-right: 1px solid black;">
+			<div class="col-xs-4 col-sm-12 col-lg-5">
+				<img src="{{asset('img/phim/zombie_mansion_-_vietnam_-_poster_revised_1__1.jpg')}}">
 			</div>
-			<div class="col-md-12">
-				<div class="datve">
-					<a href=""><p style="color: white"><b>Đặt vé</b></p></a>
-				</div>
+			<div class="col-xs-8 col-sm-12 col-lg-7 tit1">
+				<p class="tit">DINH THỰ XÁC SỐNG</p>
 			</div>
+		</div>
+		<div class="col-md-8 type2d">
+			<a href="" class="btn-schedule">18:50</a>
+			<a href="" class="btn-schedule">19:50</a>
+		</div>
 	</div>
+	</div>
+
+	<div id="chunhat" class="tabcontent">
+	  <h3>News</h3>
+	  <p>Some news this fine day!</p> 
+	</div>
+
+	<div id="thu2" class="tabcontent">
+	  <h3>Contact</h3>
+	  <p>Get in touch, or swing by for a cup of coffee.</p>
+	</div>
+
+	<div id="thu3" class="tabcontent">
+	  <h3>About</h3>
+	  <p>Who we are and what we do.</p>
+	</div>
+</div>
 @endsection
+<script type="text/javascript">
+window.onload = function () {
+        startTab();
+    };
+
+    function startTab() {
+        document.getElementById("defaultOpen").click();
+
+    }
+  function openPage(pageName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    
+    document.getElementById(pageName).style.display = "block";
+  }
+</script>
 <style type="text/css">
-	.toggle-tabs{
-		padding: 20px;
-    	margin: 0px;
+	.main1{
+		border: 1px solid black;
+	  	margin-left: 200px;
+	  	width: 983px;
 	}
-	ul.toggle-tabs{
-	    display: flex;
+	.tablink {
+	  background-color: #555;
+	  color: white;
+	  float: left;
+	  border: 1px solid white;
+	  cursor: pointer;
+	  padding: 10px;
+	  font-size: 17px;
+	  width: 140px;
 	}
-	.current{
-		border: 2px solid #222;
-    	border-radius: 5px;
+
+	.tablink:hover {
+	  background-color: #777;
 	}
-	.day{
-		color: #717171;
-	    cursor: pointer;
-	    height: 48px;
-	    position: relative;
-	    width: 77px;
+
+	/* Style the tab content (and add height:100% for full page content) */
+	.tabcontent {
+	  display: none;
+	  padding: 30px 20px;
 	}
-	.day > span{
-		color: #717171;
-	    font-size: 11px;
-	    left: 4px;
-	    position: absolute;
-	    top: 4px;
+	.tabcontent img{
+		width: 108px;
+		height: 162px;
 	}
-	.day > em{
-		color: #717171;
-	    font-size: 11px;
-	    font-style: normal;
-	    left: 4px;
-	    position: absolute;
-	    top: 20px;
+	.type2d{
+		background-image: url(/img/2d.png);
+		background-position: left 15px center;
+	    background-repeat: no-repeat;
+	    padding: 60px 10px 10px 60px;
+	    margin: 10px 0px;
 	}
-	.day > strong{
-		color: #717171;
-	    font-size: 32px;
-	    font-weight: normal;
-	    left: 31px;
-	    line-height: 32px;
-	    position: absolute;
-	    top: 8px;
+	.btn-schedule{
+		margin-left: 50px;
+		padding: 10px;
+		border: 1px solid black;
 	}
-	.site.sitecgv {
-	    display: inline-block;
-	    width: 100%;
-	    padding-bottom: 10px;
-	    margin-bottom: 20px;
+	.tit1{
+		padding-top: 60px;
 	}
-	.products-grid-movie.tab-showtime {
-	    margin-bottom: 15px;
-	}
-	.tab-showtime {
-	    width: 100%;
-	}
-	.tab-showtime li.item {
-	    border: 1px solid #cbcabe;
-	    color: #222;
-	    text-align: center;
-	}
-	.tab-showtime li {
-	    border: 1px solid #222;
-	    padding: 5px 10px;
-	    float: left;
-	    margin-right: 3px;
-	    text-align: center;
-	    margin-top: 3px;
-	}
-	.tab-showtime li {
-	    width: 125px;
-	}
-	.tab-showtime li.item span {
-	    color: #222;
-	    clear: both;
-	    float: left;
-	    width: 100%;
-	}
-	.seat.active {
-	    cursor: pointer;
-	}
-	.seat {
-	    display: inline-block;
-	    border: 1px solid #01c73c;
-	    width: 22px;
-	    height: 22px;
-	    vertical-align: middle;
-	    font-size: 7pt;
-	    margin: 0 1px;
-	    padding: 1px 0;
-	}
-	.under > p{
-		margin-bottom: 10px;
-	}
-	.row{
-		margin-left: 10px !important;
-	}
-	.icon.checked:before {
-	    background: #b11500;
-	}
-	.icon:before {
-	    content: "";
-	    display: inline-block;
-	    vertical-align: middle;
-	    width: 18px;
-	    height: 18px;
-	    margin: 0 5px 0 0;
-	}
-	.icon.occupied:before {
-	    background: #bbb;
-	}
-	.icon.unavailable:before {
-	    background: #bbb;
-	    content: "X";
-	    text-align: center;
-	    color: #fff;
-	}
-	.icon.zone-standard:before {
-	    border: 1px solid #01c73c;
-	}
-	.icon.zone-vipprime:before {
-	    border: 1px solid #f71708;
-	}
-	.datve{
-		width: 100%;
-		text-align: center;
-		background-color: red;
-		border: 1px solid white;
-		border-radius: 5px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		width: 200px;
-		justify-content: center;
-		margin-left: 400px;
+	.tgphim{
+		padding-top: 30px;
 	}
 </style>

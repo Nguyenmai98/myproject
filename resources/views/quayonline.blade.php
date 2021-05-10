@@ -130,7 +130,7 @@
 	    width: 130px;
 	    height: 20px;
 	    padding-top: 100px;
-	    background: url(/img/icon-cate-voucher.png);
+	    background: url(/img/icon/icon-cate-voucher.png);
 	    color: #222222;
 	    font-size: 12px;
 	    text-align: center;

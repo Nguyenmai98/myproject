@@ -78,7 +78,7 @@
                <div class="col-md-12">
                   <div class="form-group">
                   <label>Chi tiết phim</label>
-                  <textarea class="form-control tinymce_editor_init" name="chitiet" rows="20">
+                  <textarea class="form-control" name="chitiet" rows="20">
                     {{ $product->chitiet }}
                   </textarea>
                 </div>
@@ -96,9 +96,6 @@
     font-size: 14px!important; 
     width: 600px!important;
     height: 40px!important;
-  }
-  .sidebar{
-    height: 1300px!important;
   }
   .product_img_150_100{
     width: 150px;

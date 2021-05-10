@@ -6,7 +6,7 @@
 <body>
 	<div class="top-menu">
 		<a href="/">
-			<img src="{{asset('img/cgvlogo.png')}}">
+			<img src="{{asset('img/icon/cgvlogo.png')}}">
 		</a>
 		<div class="content-top-menu">
 			

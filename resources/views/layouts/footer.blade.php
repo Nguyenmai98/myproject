@@ -24,10 +24,23 @@
 					<p><b>Kết Nối Với Chúng Tôi</b></p>
 					<p></p>
 					<div class="social">
-						
+						<ul>
+							<li>
+								<a href="" class="fb"></a>
+							</li>
+							<li>
+								<a href="" class="yt"></a>
+							</li>
+							<li>
+								<a href="" class="in"></a>
+							</li>
+							<li>
+								<a href="" class="zl"></a>
+							</li>
+						</ul>
 					</div>
 					<div class="connect">
-						<a href=""><img src="{{asset('img/cong-thuong.PNG')}}"></a>
+						<a href=""><img src="{{asset('img/icon/cong-thuong.PNG')}}"></a>
 					</div>
 				</div>
 				<div class="col-md-3">
@@ -42,8 +55,8 @@
 	</div>
 	<div class="bot">
 		<div class="container">
-			<div class="col-md-12">
-				<div class="col-md-2">
+			<div class="col-md-12 foot">
+				<div class="col-md-2 imag">
 					
 				</div>
 				<div class="col-md-10">
@@ -62,19 +75,47 @@
 	</div>
 </div>
 <style type="text/css">
+	@media only screen and (min-width: 771px){
+		.social{
+			margin-left: -30px;
+		}
+		.social ul li a {
+		    background: url(../img/icon/bg-social-footer-40.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		    display: block;
+		    height: 39px;
+		    text-indent: -9999px;
+		    width: 39px;
+		}
+		.social ul li a.fb {
+		    background-position: -9px -3px;
+		}
+		.social ul li a.yt {
+		    background-position: -54px -3px;
+		}
+		.social ul li a.in {
+		    background-position: -98px -3px;
+		}
+		.social ul li a.zl {
+		    background-position: -191px -3px;
+		}
+		.social ul li {
+		    float: left;
+		    margin-right: 3px;
+		}
+	}
 	.footer{
-		margin-top: 5px;
+		margin-top: 25px;
 	}
 	.main{
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
 	}
-	.col-md-12{
+	.foot{
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-	.col-md-2{
-		background-image: url(img/common_sprite_area.png);
+	.imag{
+		background-image: url(img/icon/common_sprite_area.png);
 		background-position: -145px -319px;
 		float: left;
 	    height: 43px;
@@ -95,7 +136,7 @@
 		color: #636363;
 	}
 	.img-bot{
-		background: url(img/bg-bottom-footer.jpg)repeat-x scroll center bottom rgba(0, 0, 0, 0);
+		background: url(img/icon/bg-bottom-footer.jpg)repeat-x scroll center bottom rgba(0, 0, 0, 0);
 	    padding-bottom: 120px;
 	}
 </style>

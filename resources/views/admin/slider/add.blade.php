@@ -29,7 +29,4 @@
     width: 600px!important;
     height: 40px!important;
   }
-  .sidebar{
-    height: 1300px!important;
-  }
 </style>

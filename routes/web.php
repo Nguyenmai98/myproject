@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/', 'App\Http\Controllers\HomeController@index');
+
+Route::get('/loginadmin', function () {
+    return view('admin.home');
 });
 
 Route::prefix('categories')->group(function () {
@@ -136,27 +138,189 @@ Route::prefix('sliders')->group(function () {
     ]);
  
 });
-Route::get('/news', function (){
-	return view('news');
+
+Route::prefix('servers')->group(function () {
+    Route::get('/', [
+        'as' => 'servers.index',
+        'uses' => 'App\Http\Controllers\ServerController@index'
+    ]);
+
+    Route::get('/create', [
+        'as' => 'servers.create',
+        'uses' => 'App\Http\Controllers\ServerController@create'
+    ]);
+
+    Route::post('/store', [
+        'as' => 'servers.store',
+        'uses' => 'App\Http\Controllers\ServerController@store'
+    ]);
+
+    Route::get('/edit/{id}', [
+        'as' => 'servers.edit',
+        'uses' => 'App\Http\Controllers\ServerController@edit'
+    ]);
+
+    Route::post('/update/{id}', [
+        'as' => 'servers.update',
+        'uses' => 'App\Http\Controllers\ServerController@update'
+    ]);
+
+    Route::get('/delete/{id}', [
+        'as' => 'servers.delete',
+        'uses' => 'App\Http\Controllers\ServerController@delete'
+    ]);
+ 
 });
+
+Route::prefix('phongchieus')->group(function () {
+    Route::get('/', [
+        'as' => 'phongchieus.index',
+        'uses' => 'App\Http\Controllers\PhongChieuController@index'
+    ]);
+
+    Route::get('/create', [
+        'as' => 'phongchieus.create',
+        'uses' => 'App\Http\Controllers\PhongChieuController@create'
+    ]);
+
+    Route::post('/store', [
+        'as' => 'phongchieus.store',
+        'uses' => 'App\Http\Controllers\PhongChieuController@store'
+    ]);
+
+    Route::get('/edit/{id}', [
+        'as' => 'phongchieus.edit',
+        'uses' => 'App\Http\Controllers\PhongChieuController@edit'
+    ]);
+
+    Route::post('/update/{id}', [
+        'as' => 'phongchieus.update',
+        'uses' => 'App\Http\Controllers\PhongChieuController@update'
+    ]);
+
+    Route::get('/delete/{id}', [
+        'as' => 'phongchieus.delete',
+        'uses' => 'App\Http\Controllers\PhongChieuController@delete'
+    ]);
+ 
+});
+
+Route::prefix('khoangtgs')->group(function () {
+    Route::get('/', [
+        'as' => 'khoangtgs.index',
+        'uses' => 'App\Http\Controllers\KhoangTGController@index'
+    ]);
+
+    Route::get('/create', [
+        'as' => 'khoangtgs.create',
+        'uses' => 'App\Http\Controllers\KhoangTGController@create'
+    ]);
+
+    Route::post('/store', [
+        'as' => 'khoangtgs.store',
+        'uses' => 'App\Http\Controllers\KhoangTGController@store'
+    ]);
+
+    Route::get('/edit/{id}', [
+        'as' => 'khoangtgs.edit',
+        'uses' => 'App\Http\Controllers\KhoangTGController@edit'
+    ]);
+
+    Route::post('/update/{id}', [
+        'as' => 'khoangtgs.update',
+        'uses' => 'App\Http\Controllers\KhoangTGController@update'
+    ]);
+
+    Route::get('/delete/{id}', [
+        'as' => 'khoangtgs.delete',
+        'uses' => 'App\Http\Controllers\KhoangTGController@delete'
+    ]);
+ 
+});
+
+Route::prefix('trangthais')->group(function () {
+    Route::get('/', [
+        'as' => 'trangthais.index',
+        'uses' => 'App\Http\Controllers\TrangThaiController@index'
+    ]);
+
+    Route::get('/create', [
+        'as' => 'trangthais.create',
+        'uses' => 'App\Http\Controllers\TrangThaiController@create'
+    ]);
+
+    Route::post('/store', [
+        'as' => 'trangthais.store',
+        'uses' => 'App\Http\Controllers\TrangThaiController@store'
+    ]);
+
+    Route::get('/edit/{id}', [
+        'as' => 'trangthais.edit',
+        'uses' => 'App\Http\Controllers\TrangThaiController@edit'
+    ]);
+
+    Route::post('/update/{id}', [
+        'as' => 'trangthais.update',
+        'uses' => 'App\Http\Controllers\TrangThaiController@update'
+    ]);
+
+    Route::get('/delete/{id}', [
+        'as' => 'trangthais.delete',
+        'uses' => 'App\Http\Controllers\TrangThaiController@delete'
+    ]);
+ 
+});
+
+Route::prefix('loaighes')->group(function () {
+    Route::get('/', [
+        'as' => 'loaighes.index',
+        'uses' => 'App\Http\Controllers\LoaiGheController@index'
+    ]);
+
+    Route::get('/create', [
+        'as' => 'loaighes.create',
+        'uses' => 'App\Http\Controllers\LoaiGheController@create'
+    ]);
+
+    Route::post('/store', [
+        'as' => 'loaighes.store',
+        'uses' => 'App\Http\Controllers\LoaiGheController@store'
+    ]);
+
+    Route::get('/edit/{id}', [
+        'as' => 'loaighes.edit',
+        'uses' => 'App\Http\Controllers\LoaiGheController@edit'
+    ]);
+
+    Route::post('/update/{id}', [
+        'as' => 'loaighes.update',
+        'uses' => 'App\Http\Controllers\LoaiGheController@update'
+    ]);
+
+    Route::get('/delete/{id}', [
+        'as' => 'loaighes.delete',
+        'uses' => 'App\Http\Controllers\LoaiGheController@delete'
+    ]);
+ 
+});
+Route::get('/news', 'App\Http\Controllers\HomeController@tinTuc');
+Route::get('/chitietdichvu/{id}', [
+    'as' => 'chitietdichvu',
+    'uses' => 'App\Http\Controllers\HomeController@chiTietTin'
+]);
 
 Route::get('/admin', 'App\Http\Controllers\AdminController@loginAdmin');
 Route::post('/admin', 'App\Http\Controllers\AdminController@postLoginAdmin');
-Route::get('/loginadmin', function (){
-    return view('admin.home');
-});
 
-Route::get('/phimdangchieu', function (){
-	return view('phimdangchieu');
-});
+Route::get('/loaiphim/{type}', [
+    'as' => 'loaiphim',
+    'uses' => 'App\Http\Controllers\HomeController@loaiPhim'
+]);
 
-Route::get('/chitietphim', function (){
-    return view('chitietphim');
-});
-
-Route::get('/phimsapchieu', function (){
-	return view('phimsapchieu');
-});
+Route::get('/chitietphim/{id}', [
+    'as' => 'chitietphim',
+    'uses' => 'App\Http\Controllers\HomeController@productsDetail'
+]);
 
 Route::get('/quayonline', function (){
 	return view('quayonline');
@@ -182,4 +346,31 @@ Route::get('/muave', function (){
     return view('muave');
 });
 
+Route::get('/quyenloi', function (){
+    return view('quyenloi');
+});
+
+Route::get('/lichchieu', function (){
+    return view('lichchieu');
+});
+
+Route::get('/vecuatoi', function (){
+    return view('vecuatoi');
+});
+
+Route::get('/giave', function (){
+    return view('giave');
+});
+
+Route::get('/datve', function (){
+    return view('datve');
+});
+
+Route::get('/thanhtoan', function (){
+    return view('thanhtoan');
+});
+
+Route::get('/chitietdichvu', function (){
+    return view('chitietdichvu');
+});
 

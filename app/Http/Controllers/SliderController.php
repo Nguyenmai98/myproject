@@ -53,8 +53,8 @@ class SliderController extends Controller
 		    	];
 		    	$dataUploadImage = $this->storageTraitUpload($request, 'image_path', 'slider');
 		    	if(!empty($dataUploadImage)){
-		    		$dataSliderCreate['image_name'] = $dataUploadImage['file_name'];
-		    		$dataSliderCreate['image_path'] = $dataUploadImage['file_path'];
+		    		$dataSliderUpdate['image_name'] = $dataUploadImage['file_name'];
+		    		$dataSliderUpdate['image_path'] = $dataUploadImage['file_path'];
 		    	}
 		    	$this->slider->find($id)->update($dataSliderUpdate);
 		    	$slider = $this->slider->find($id);
